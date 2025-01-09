@@ -28,10 +28,10 @@ export const colors = {
     light: "#CA7622",
   },
   brown: {
-    dark: "#42322f",
+    dark: "#724c3d",
     strong: "#5a3725",
     middle: "#8f683f",
-    light: "#9f865e",
+    light: "#f2e6d3",
   },
   attention: {
     light: "#FDEDED",
