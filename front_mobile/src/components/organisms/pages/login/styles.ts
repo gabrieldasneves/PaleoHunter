@@ -5,13 +5,20 @@ export const s = StyleSheet.create({
   background: {
     flex: 1,
   },
-  logo: {
+  logoContainer: {
+    alignItems: "center",
     width: 280,
     height: 280,
     marginLeft: "15%",
-    marginTop: "10%",
+    gap: 30,
   },
-
+  logoText: {
+    textAlign: "center",
+    fontWeight: "600",
+    fontSize: 40,
+    color: colors.brown.strong,
+  },
+  tinyLogo: { marginTop: 40, width: 500, height: 500 },
   text: {
     color: "white",
     marginTop: "-25%",
@@ -19,26 +26,33 @@ export const s = StyleSheet.create({
   },
   signup: {
     backgroundColor: colors.brown.light,
-    color: colors.brown.dark,
     width: "75%",
     borderRadius: 25,
-    textAlign: "center",
-    fontWeight: "bold",
     marginLeft: "11%",
     padding: "2%",
+    marginTop: "85%",
+  },
+  signupText: {
+    color: colors.green.rifle_green,
+    textAlign: "center",
+    fontWeight: "bold",
     fontSize: 24,
-    marginTop: "80%",
   },
   login: {
-    backgroundColor: colors.brown.dark,
+    backgroundColor: colors.green.dark,
     color: colors.brown.light,
     width: "75%",
     borderRadius: 25,
-    textAlign: "center",
-    fontWeight: "bold",
     marginLeft: "11%",
     padding: "2%",
-    fontSize: 24,
     marginTop: "10%",
+    borderColor: colors.brown.light,
+    borderWidth: 1,
+  },
+  loginText: {
+    color: colors.brown.light,
+    textAlign: "center",
+    fontWeight: "bold",
+    fontSize: 24,
   },
 });

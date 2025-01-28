@@ -1,19 +1,19 @@
 import { colors } from "@/src/styles/theme";
 import { View, ImageBackground, StyleSheet, StatusBar } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import { Login } from "../components/organisms/pages/login";
+import { Initial } from "../components/organisms/pages/login";
 import { Welcome } from "../components/organisms/pages/welcome";
 
 export default function Index() {
   return (
     <View style={{ flex: 1 }}>
       <ImageBackground
-        source={require("@/src/assets/fossil.jpg")}
+        source={require("@/src/assets/bones.jpg")}
         style={{ flex: 1 }}
         resizeMode="cover"
       >
         <StatusBar translucent backgroundColor="transparent" />
-        <Login />
+        <Initial />
       </ImageBackground>
       {/* <Welcome /> */}
     </View>

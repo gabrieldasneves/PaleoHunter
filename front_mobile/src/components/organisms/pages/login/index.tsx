@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import { s } from "@/src/components/organisms/pages/login/styles";
 
-export function Login() {
+export function Initial() {
   const HandlePressSignup = () => {
     Alert.alert("Completed Sign Up");
   };
@@ -18,11 +18,15 @@ export function Login() {
   };
   return (
     <View>
-      <TouchableOpacity onPress={HandlePressSignup}>
-        <Text style={s.signup}>Sign Up</Text>
+      <View style={s.logoContainer}>
+        <Image style={s.tinyLogo} source={require("@/src/assets/logo.png")} />
+        {/* <Text style={s.logoText}>Welcome to _NAME_!</Text> */}
+      </View>
+      <TouchableOpacity style={s.signup} onPress={HandlePressSignup}>
+        <Text style={s.signupText}>Sign Up</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={HandlePressLogin}>
-        <Text style={s.login}>Log In</Text>
+      <TouchableOpacity style={s.login} onPress={HandlePressLogin}>
+        <Text style={s.loginText}>Log In</Text>
       </TouchableOpacity>
     </View>
   );
