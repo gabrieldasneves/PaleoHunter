@@ -37,6 +37,7 @@ export const s = StyleSheet.create({
     textAlign: "center",
     fontWeight: "bold",
     fontSize: 24,
+    fontFamily: fontFamily.bold,
   },
   login: {
     backgroundColor: colors.green.dark,
@@ -54,5 +55,6 @@ export const s = StyleSheet.create({
     textAlign: "center",
     fontWeight: "bold",
     fontSize: 24,
+    fontFamily: fontFamily.bold,
   },
 });

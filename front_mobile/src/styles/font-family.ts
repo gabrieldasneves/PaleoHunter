@@ -1,6 +1,6 @@
 export const fontFamily = {
-  bold: "Rubik_700Bold",
-  medium: "Rubik_500Medium",
-  regular: "Rubik_400Regular",
-  semiBold: "Rubik_600SemiBold",
+  bold: "Livvic_700Bold",
+  medium: "Livvic_500Medium",
+  regular: "Livvic_400Regular",
+  semiBold: " Livvic_600SemiBold",
 };

@@ -7,7 +7,7 @@ import {
   Livvic_500Medium,
   Livvic_700Bold,
 } from "@expo-google-fonts/livvic";
-import { Loading } from "../components/atoms/loading";
+import { Loading } from "@/src/components/atoms/loading";
 
 export default function Layout() {
   const [fontsLoaded] = useFonts({
