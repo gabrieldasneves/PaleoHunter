@@ -6,7 +6,7 @@ import {
   Image,
   Text,
 } from "react-native";
-import { s } from "@/src/components/organisms/pages/login/styles";
+import { s } from "@/src/components/organisms/pages/initial/styles";
 
 export function Initial() {
   const HandlePressSignup = () => {

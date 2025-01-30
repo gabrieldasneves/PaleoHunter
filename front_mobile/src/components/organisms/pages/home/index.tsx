@@ -1,8 +1,8 @@
 import { Button, Image, Text, TouchableOpacity, View } from "react-native";
-import { s } from "@/src/components/organisms/pages/welcome/styles";
+import { s } from "@/src/components/organisms/pages/home/styles";
 import { HamburgerMenu } from "@/src/components/atoms/hamburgerMenu";
 
-export function Welcome() {
+export function Home() {
   return (
     <View style={s.page}>
       <View style={s.sandwichMenu}>
