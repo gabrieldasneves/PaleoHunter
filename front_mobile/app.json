@@ -11,7 +11,7 @@
     "splash": {
       "image": "./src/assets/archeopterix.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#E6E7E3"
+      "backgroundColor": "#f2e6d3"
     },
     "ios": {
       "supportsTablet": true
@@ -19,7 +19,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#E6E7E3"
+        "backgroundColor": "#f2e6d3"
       }
     },
     "web": {
