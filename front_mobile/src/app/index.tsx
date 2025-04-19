@@ -1,17 +1,19 @@
 import { View, Text } from "react-native";
 import { colors } from "../styles/colors";
+import { Welcome } from "@/components/welcome";
+import { ButtonFlowList } from "@/components/buttonFlowList";
 
 export default function App() {
   return (
     <View
       style={{
         flex: 1,
-        alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: colors.brown.strong,
+        padding: 40,
+        gap: 40,
       }}
     >
-      <Text style={{ color: "white" }}>Hello World</Text>
+      <Welcome />
+      <ButtonFlowList />
     </View>
   );
 }
