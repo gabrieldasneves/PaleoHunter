@@ -1,4 +1,4 @@
-# 🦴 digFinder
+![image](https://github.com/user-attachments/assets/06ddfa72-9cff-4ac3-a657-b285ec071098)
 
 **Explore the past, one dig at a time.**
 
