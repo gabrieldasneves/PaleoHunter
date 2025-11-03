@@ -6,29 +6,29 @@ digFinder is a mobile app designed for amateur paleontologists and fossil enthus
 
 ---
 
-## 🌍 Features
+##  Features
 
-- 📍 **Geolocated fossil logbook**  
+-  **Geolocated fossil logbook**  
   Save your discoveries with location, description, photos, and more.
 
-- 🗺️ **Interactive fossil map**  
+-  **Interactive fossil map**  
   Browse and explore discoveries from others around the world.
 
-- 🧑‍🤝‍🧑 **Community-powered science**  
+-  **Community-powered science**  
   Engage with a community of fossil lovers, learn and share findings.
 
-- 🔐 **User authentication**  
+-  **User authentication**  
   Secure sign-in with personalized discovery history.
 
 ---
 
-## 📱 Screenshots
+##  Screenshots
 
 > _(To be added once UI is available — mockups, wireframes, or real screenshots.)_
 
 ---
 
-## 💡 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React Native / Expo
 - **Backend**: Firebase / Supabase / Node.js _(TBD)_
@@ -38,7 +38,7 @@ digFinder is a mobile app designed for amateur paleontologists and fossil enthus
 
 ---
 
-## 🚀 Roadmap
+##  Roadmap
 
 - [x] Project design & name
 - [ ] MVP fossil logbook UI
@@ -50,29 +50,23 @@ digFinder is a mobile app designed for amateur paleontologists and fossil enthus
 
 ---
 
-## 🧠 Vision
+##  Contributing
 
-digFinder is more than an app — it's a bridge between tech and science. By empowering citizen scientists, we aim to build a global archive of fossil discoveries that supports education, research, and curiosity about Earth’s ancient history.
-
----
-
-## 🤝 Contributing
-
-We're open to feedback, collaborators, and partnerships — especially from the scientific and educational community.
+I'm open to feedback, collaborators, and partnerships — especially from the scientific and educational community.
 
 Want to help shape the future of amateur paleontology?  
-Feel free to open an issue or contact the maintainer.
+Feel free to open an issue or contact me.
 
 ---
 
-## 📄 License
+##  License
 
 MIT License
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
-**Gabriel Das Neves**  
+**Gabriel das Neves**  
 Software Engineer & Paleontology Enthusiast  
 [LinkedIn](https://www.linkedin.com/in/gabrieldasneves/) • [Instagram](https://www.instagram.com/devdasneves) _(ou outros links seus)_
