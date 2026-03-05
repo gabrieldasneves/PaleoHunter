@@ -1,19 +1,18 @@
-import { View, Text } from "react-native";
-import { colors } from "../styles/colors";
-import { Welcome } from "@/components/welcome";
-import { ButtonFlowList } from "@/components/buttonFlowList";
-
-export default function App() {
+import LoginForm from "@/components/organisms/loginForm";
+import { colors } from "@/styles/colors";
+import { View } from "react-native";
+export default function Index() {
   return (
     <View
       style={{
         flex: 1,
-        padding: 40,
-        gap: 40,
+        width: "100%",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: colors.brown.strong,
       }}
     >
-      <Welcome />
-      <ButtonFlowList />
+      <LoginForm />
     </View>
   );
 }
